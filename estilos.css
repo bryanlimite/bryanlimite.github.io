@@ -108,9 +108,6 @@ nav a:hover {
     font-size: 25px;
 }
 
-.proyectos{
-    
-}
 
 /* Editamos el Query para monitores de ordenador */
 @media (min-width: 768px)
@@ -172,4 +169,42 @@ nav a:hover {
         align-items:center;
     }
     
+
+    .services {
+        padding-top: 100px;
+        letter-spacing: 0.03em; }
+        .services__list {
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+          margin: 44px 0; }
+          @media (max-width: 1045px) {
+            .services__list {
+              -webkit-justify-content: space-around;
+              -ms-flex-pack: distribute;
+              justify-content: space-around; } }
+          @media (min-width: 1046px) {
+            .services__list {
+              -webkit-justify-content: space-between;
+              -ms-flex-pack: justify;
+              justify-content: space-between; } }
+        .services__item {
+          width: 322px;
+          margin-bottom: 55px;
+          text-align: center; }
+        .services__img {
+          display: block;
+          width: 322px;
+          height: 220px; }
+        .services__item-name {
+          margin: 31px 0 10px 0;
+          font: 800 22px/34px "Work Sans", sans-serif;
+          text-transform: uppercase; }
+        .services__item-text {
+          margin: 0;
+          font: 400 16px/26px "Open Sans", sans-serif;
+          opacity: .7; }
 }
