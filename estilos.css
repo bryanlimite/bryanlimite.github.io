@@ -57,7 +57,7 @@ nav {
     right: 0;
     z-index: 2;
     width: 60%;
-    background: rgb(244, 253, 251);
+    /* background: rgb(244, 253, 251); */
     height: 100vh;
 }
 nav ul {
@@ -96,7 +96,6 @@ nav a:hover {
     object-fit: cover;
 }
 .iniciotext{
-    color: white;
     position: absolute;
     justify-self: flex-start;
     top: 300px;
@@ -110,104 +109,112 @@ nav a:hover {
 
 /* bloque Menu */
 .menu{
-        margin: 2em 12em;
-    }
-    .burger, .salir {
-        display: none;
-    }
-    nav {
-        margin: 1em;
-        display: flex;
-        justify-content: flex-end;
-        background: none;
-        padding-top: 0;
-    }
-    nav ul {
-        display: flex;
-        margin-top: 0;
-        
-    }
-    nav ul a {
-        color: ghostwhite;
-    }
-    .aBis{
-        color: rgb(7, 67, 45);  
-    }
-    /* Bloque Inicio*/
-    .iniciotext{
-        background-color: rgba(0, 0, 0);
-        align-self: center;
-        align-items: center;
-        margin: 7em;
-        top: 10em;
-        left: 10em;
-        right: 10em;
-    }
-    .informacion{
-        text-align: center;
-    }
-    .informacion h4{
-        font-size: 24px;
-        color: orangered;
-    }
-
-    /* Bloque informacion*/
-    .infobox{
-        display: flex;
-        flex-direction:row;
-        justify-content:space-around;
-        align-items:left;
-    }
-    .infobox2{
-        width: 50%;
-        flex-direction:column;
-        justify-content:space-around;
-        align-items:center;
-    }
+    margin: 2em 12em;
+}
+.burger, .salir {
+    display: none;
+}
+nav {
+    margin: 1em;
+    display: flex;
+    justify-content: flex-end;
+    background: none;
+    padding-top: 0;
+}
+nav ul {
+    display: flex;
+    margin-top: 0;
     
-    /* Bloque Poryectos */
-    .services {
-        align-items: center;
-        align-content: center;
-        justify-content: center;
-        letter-spacing: 0.03em; 
-    }
-    .headergroup__weak{
-        align-items: center;
-        align-content: center;
-        justify-content: center;
-    }
-    .services__list {
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        margin: 44px 0; 
-    }
-    .services__list {
-        -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-        justify-content: space-between; 
-    } 
-    .services__item {
-        width: 322px;
-        margin-bottom: 55px;
-        text-align: center; 
-    }
-    .services__img {
-        display: block;
-        width: 322px;
-        height: 220px; 
-    }
-    .services__item-name {
-        margin: 31px 0 10px 0;
-        font: 800 22px/34px "Work Sans", sans-serif;
-        text-transform: uppercase; }
+}
+nav ul a {
+    color: ghostwhite;
+}
+.aBis{
+    color: rgb(7, 67, 45);  
+}
+/* Bloque Inicio*/
+.iniciotext{
+    background-color: rgba(0, 0, 0);
+    align-self: center;
+    align-items: center;
+    margin: 7em;
+    top: 10em;
+    left: 10em;
+    right: 10em;
+}
+.informacion{
+    text-align: center;
+}
+.informacion h4{
+    font-size: 24px;
+    color: orangered;
+}
 
-        .services__item-text {
-        margin: 0;
-        font: 400 16px/26px "Open Sans", sans-serif;
-        opacity: .7; 
-    }
+/* Bloque informacion*/
+.infobox{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:left;
+}
+.infobox2{
+    width: 50%;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+}
+
+/* Bloque Poryectos */
+.services {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    letter-spacing: 0.03em; 
+    background-color: grey;
+}
+.headergroup__name h3 {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.headergroup__weak{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.services__list {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 44px 0; 
+}
+.services__list {
+    margin-left: 30px;
+    margin-right: 30px;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: justify;
+    justify-content: space-between; 
+} 
+.services__item {
+    width: 322px;
+    margin-bottom: 55px;
+    text-align: center; 
+}
+.services__img {
+    display: block;
+    width: 322px;
+    height: 220px; 
+}
+.services__item-name {
+    margin: 31px 0 10px 0;
+    font: 800 22px/34px "Work Sans", sans-serif;
+    text-transform: uppercase; 
+}
+.services__item-text {
+    margin: 0;
+    font: 400 16px/26px "Open Sans", sans-serif;
+    opacity: .7; 
+}
