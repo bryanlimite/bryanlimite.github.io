@@ -1,3 +1,4 @@
+
 /* Estilos generales */
 body {
     font-family: Arial, sans-serif;
@@ -6,67 +7,75 @@ body {
 }
 
   /* Estilos del menú */
-/* Estilos del menú */
 header {
     background-color: #333;
-    color: #fff;
     padding: 10px;
     text-align: center; /* Centra el contenido del header */
-}
-
-nav ul {
+  }
+  
+  nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: inline-block; /* Cambia el display a inline-block */
-}
-
-nav ul li {
+  }
+  
+  nav ul li {
     display: inline;
     margin-right: 10px;
-}
-
-nav ul li a {
+  }
+  
+  nav ul li a {
     color: #fff;
     text-decoration: none;
+  }
+  
+  /* Estilos de la sección Sobre mí */
+  #about {
+    display: flex; /* Add display: flex property */
+    flex-direction: row; /* Add flex-direction: row property */
+    justify-content: space-between; /* Add justify-content: space-between property */
 }
 
-
-/* Estilos de la sección Sobre mí */
 .about-text {
-    float: left;
-    width: 50%;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    text-align: center;
-    margin-top: 50px;
-
-}
-.about-image {
-    float: right;
-    width: 30%;
-}
-
-.skills {
-    clear: both;
-}
-
+    text-align: center; /* Add text-align: center property */
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 50%;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-items: stretch;
+    align-items: stretch;
+  }
+  
+  .about-image {
+    /* Modify the width and margin as per your requirements */
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 50%;
+    justify-items: stretch;
+    align-items: stretch;
+  }
+  
+  .skills {
+    /* Remove the clear property */
+  }
+  
   /* Estilos de la sección Proyectos */
-.slider {
+  .slider {
     /* Estilos del slider */
-}
-
-
-
-.project-info {
+  }
+  
+  .project-info {
     text-align: center;
-}
-
+  }
+  
   /* Estilos adicionales para hacer el portafolio responsive */
-@media screen and (max-width: 768px) {
-    .about-text, .about-image {
-    width: 100%;
-    float: none;
+  @media screen and (max-width: 768px) {
+    .about-text,
+    .about-image {
+      width: 100%;
+      float: none;
     }
-}
+  }
+  

@@ -1,0 +1,55 @@
+  /* Estilos del menú */
+header {
+    background-color: #333;
+    padding: 10px;
+    text-align: center; /* Centra el contenido del header */
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block; /* Cambia el display a inline-block */
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* CSS styles for the sections */
+.section {
+    padding: 50px;
+    height: 500px;
+}
+
+    /* CSS styles for the left and right divisions in the About Me section */
+    .left-division {
+        float: left;
+        width: 50%;
+        text-align: center; /* Center the text */
+        align-items: center;
+    }
+    
+    .right-division {
+        float: right;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center; /* Center the image */
+    }
+
+/* CSS styles for the skills images */
+.skills-image {
+width: 100px;
+height: 100px;
+margin: 10px;
+}
+
+/* CSS styles for the image of the user */
+.user-image {
+width: 200px;
+height: 200px;
+}
