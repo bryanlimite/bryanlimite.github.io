@@ -1,55 +1,82 @@
-  /* Estilos del menú */
-header {
-    background-color: #333;
-    padding: 10px;
-    text-align: center; /* Centra el contenido del header */
-}
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: inline-block; /* Cambia el display a inline-block */
-}
-nav ul li {
-    display: inline;
-    margin-right: 10px;}
+/* -----MENU----- */
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
+.navbar.navbar-inverse {
+    height: 75px; /* altura del menú aumentada a 75px */
+    display: flex; /* establece el menú como contenedor flex */
+    align-items: center; /* alinea los ítems del menú en el centro verticalmente */
+    justify-content: flex-end; /* alinea los ítems del menú a la derecha horizontalmente */
+    background-color: rgb(248, 129, 18);
 }
 
-/* CSS styles for the sections */
-.section {
-    padding: 50px;
-    height: 500px;
+.navbar.navbar-inverse .navbar-nav li a {
+    color: black; /* cambia el color del enlace del menú a negro */
+    text-decoration: none; /* elimina el subrayado por defecto de los enlaces */
 }
 
-    /* CSS styles for the left and right divisions in the About Me section */
-    .left-division {
-        float: left;
-        width: 50%;
-        text-align: center; /* Center the text */
-        align-items: center;
-    }
-    
-    .right-division {
-        float: right;
-        width: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center; /* Center the image */
-    }
-
-/* CSS styles for the skills images */
-.skills-image {
-width: 100px;
-height: 100px;
-margin: 10px;
+.navbar.navbar-inverse .navbar-nav li a:hover {
+    color: white; /* cambia el color del enlace cuando se pasa el cursor sobre él a blanco */
 }
 
-/* CSS styles for the image of the user */
-.user-image {
-width: 200px;
-height: 200px;
+.navbar-nav {
+    text-align: right;
+    margin-right: 50px; /* margen derecho de 50px */
+    padding-right: 50px; /* añade esto para añadir un relleno a la derecha del texto del menú */
 }
+
+
+
+
+/* -----SOBRE MI----- */
+
+.content .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-sm-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15%; /* Ajusta el valor a tu preferencia */
+    text-align: center;  /* Centra el texto horizontalmente */
+    line-height: 50px;  /* Centra el texto verticalmente */
+    margin-left: -300px;
+}
+
+.col-sm-6 h1, .col-sm-6 p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%; 
+    /* Ajusta esta propiedad para que sea aproximadamente la mitad de la altura total de .col-sm-6 */
+}
+
+.col-sm-6-2 img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px; 
+    height: 300px;
+    width: 300px;
+    /* Esto centra verticalmente las imágenes. 
+        Puedes aumentar el segundo valor (0) para agregar más espacio en la parte superior e inferior de las imágenes. */
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.image-container img {
+    height: 50px;
+    width: 50px;
+}
+
+/* -----SLIDER----- */
+
+#myCarousel {
+    margin-top: 200px; /* Ajusta el valor a tu preferencia */
+}
+
