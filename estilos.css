@@ -92,3 +92,8 @@
 #myCarousel {
   margin-top: 200px; /* Ajusta el valor a tu preferencia */
 }
+
+
+.carousel-caption{
+  color: black;
+}
